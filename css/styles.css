@@ -7,7 +7,6 @@ Link Color (Teal): #357b70;
 Visited Link Color (Lighter Teal): #05676e;
 Active Link Color (Purple): #800080
  */
-
 :root {
   --background-color-primary: #C0C0C0;
   --teal: #357b70;
@@ -17,13 +16,10 @@ Active Link Color (Purple): #800080
   --black: #000000;
   --gold: #e0b354;
   --h-font-weight: 700;
-
 }
-
 
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -33,7 +29,7 @@ body {
   /* Sets the font size to 16px */
   line-height: 1.6;
   /* Sets the line-height to 1.6 */
-    background-color: var(--background-color-primary);
+  background-color: var(--background-color-primary);
 }
 
 h1 {
@@ -139,21 +135,19 @@ input {
   margin: 0 auto;
 }
 
-
-
 .about-content {
-    clear: both;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 20% 0 20%;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20% 0 20%;
 }
 
-.cv-download{
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.cv-download {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table, th, td {
@@ -183,6 +177,8 @@ table, th, td {
   display: inline-block;
   margin-left: 15px;
 }
+
+
 
 /* start grid fallback */
 .grid__item {
@@ -223,9 +219,11 @@ table, th, td {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -235,6 +233,7 @@ table, th, td {
   from {
     transform: translate(0, 50px);
   }
+
   to {
     transform: translate(200px, 50px);
   }
@@ -244,6 +243,7 @@ table, th, td {
   from {
     transform: translate(446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }
@@ -260,7 +260,6 @@ table, th, td {
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
-
 
 @media all and (max-width: 500px) {
   .grid {
